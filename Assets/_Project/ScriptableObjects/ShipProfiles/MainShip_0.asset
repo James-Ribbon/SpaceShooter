@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fc7d8bdf67d4a40989e8d3542bc8d3, type: 3}
+  m_Name: MainShip_0
+  m_EditorClassIdentifier: 
+  DamageLevels:
+  - HealthThreshold: 0
+    Sprite: {fileID: 21300000, guid: e823657038e27374cb2ac162b1c5a80d, type: 3}
+  - HealthThreshold: 1
+    Sprite: {fileID: 21300000, guid: 1eb5a957d59733945ba25f8e53d7d01c, type: 3}
+  - HealthThreshold: 2
+    Sprite: {fileID: 21300000, guid: 133c113549c2d7240a543ac310c58f3f, type: 3}
+  - HealthThreshold: 3
+    Sprite: {fileID: 21300000, guid: 90823bdfcb26c6841b968d04504c25ec, type: 3}
