@@ -5,4 +5,9 @@ public class EngineSO : PartSO
 {
     public float baseThrust;
     public float fuelEfficiency;
+
+    public float thrustMultiplier;
+    //public float fuelConsumption;
+
+    public ThrusterSO thruster;
 }

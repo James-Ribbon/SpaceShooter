@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partName: 
   partSprite: {fileID: 0}
-  desription: 
-  partCost: 123
-  baseThrust: 100
+  description: 
+  partCost: 0
+  baseThrust: 20
   fuelEfficiency: 1
+  thrustMultiplier: 1
+  thruster: {fileID: 11400000, guid: a0f2ba7d080f7b442802fd253b062d59, type: 2}

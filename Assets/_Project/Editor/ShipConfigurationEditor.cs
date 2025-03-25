@@ -13,9 +13,9 @@ public class ShipConfigurationEditor : Editor
 
         config.engine = (EngineSO)EditorGUILayout.ObjectField("Engine", config.engine, typeof(EngineSO), false);
         config.weapon = (WeaponSO)EditorGUILayout.ObjectField("Weapon", config.weapon, typeof(WeaponSO), false);
-        config.thruster = (ThrusterSO)EditorGUILayout.ObjectField("Thruster", config.thruster, typeof(ThrusterSO), false);
+        //config.thruster = (ThrusterSO)EditorGUILayout.ObjectField("Thruster", config.thruster, typeof(ThrusterSO), false);
 
-        if (config.engine != null && config.thruster != null)
+        if (config.engine != null)// && config.thruster != null)
         {
             EditorGUILayout.LabelField($"Total Thrust: {config.GetTotalThrust()}");
         }

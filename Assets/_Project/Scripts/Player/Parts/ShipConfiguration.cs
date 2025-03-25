@@ -4,12 +4,12 @@ public class ShipConfiguration : MonoBehaviour
 {
     public EngineSO engine;
     public WeaponSO weapon;
-    public ThrusterSO thruster;
+    //public ThrusterSO thruster;
     public ShieldSO shield;
 
     public float GetTotalThrust()
     {
-        return engine.baseThrust * thruster.thrustMultiplier;
+        return engine.baseThrust * engine.thrustMultiplier;
     }
 
     public float GetFireRate()

@@ -4,7 +4,7 @@ public abstract class PartSO : ScriptableObject
 {
     public string partName;
     public Sprite partSprite;
-    public string desription;
+    public string description;
     public int partCost;
 }
 
