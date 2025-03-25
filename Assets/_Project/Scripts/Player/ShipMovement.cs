@@ -5,12 +5,6 @@ public class ShipMovement : MonoBehaviour
     [SerializeField] private float _movementSpeed;
     private IInputHandler _inputHandler;
 
-    /*private void Awake()
-    {
-        _inputHandler = new MobileTouchInputHandler();
-    }*/
-
-    //Dependency Injection Test > Ship.cs - 10.03.25
     public void Initialize(IInputHandler inputHandler, float movementSpeed)
     {
         _inputHandler = inputHandler;
